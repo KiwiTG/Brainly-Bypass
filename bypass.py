@@ -1,13 +1,8 @@
 import selenium, os, time
 from selenium import webdriver
 
-ffd = input("Do you need to install Fire Fox? y/n >> ")
-
-if ffd == "y":
-    os.system('start firefox.exe')
-    os.system('cls')
-if ffd == "n":
-    os.system('cls')
+print("Firefox Browser is Required!")
+time.sleep(3)
 
 while True:
     driver = webdriver.Firefox()
